@@ -6,10 +6,10 @@ DAR scans, and RGBD measurements from a differential-drive robot. Use the odomet
 measurements to localize the robot and build a 2-D occupancy grid map of the environment. Use the
 RGBD images to assign colors to your 2-D map of the floor.
 
-### Ocuppancy Grid
+### 2-D Ocuppancy Grid
 ![Alt Text](https://media.giphy.com/media/0DbwULmbO3ERJPBHPP/giphy.gif)
 
-### 2-D map of the floor
+### 2-D texture map of the floor
 ![Alt Text](https://media.giphy.com/media/IZ7Ky27ORuudlzbNrR/giphy.gif)
 
 
