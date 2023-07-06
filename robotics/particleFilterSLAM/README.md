@@ -40,14 +40,13 @@ range measurements to (x, y) coordinates in the sensor frame, then to the body f
 robot, and finally to the world frame.
 
 4. RGBD Camera (Kinect): An RGBD camera provides RGB images and disparity images. The depth camera is
-located at (0.18, 0.005, 0.36) m with respect to the robot center and has orientation with roll 0
-rad, pitch 0.36 rad, and yaw 0.021 rad.
+located at (0.18, 0.005, 0.36) m with respect to the robot center and has orientation with roll 0 rad, pitch 0.36 rad, and yaw 0.021 rad.
  
 
 ## Dataset:
 The dataset for two scenarios is provided in the data folder for encoder, LiDAR and IMU.
 
-Download the dataRGBD dataset from the link and copy the dataRGBD "data" directory : 
+Download the dataRGBD dataset from the link and copy the dataRGBD "data" directory : https://drive.google.com/drive/folders/1Fn7YF4u-0bwKGcdKhu76zGfcxNydyXdr?usp=drive_link
 
 
 ## Code:
