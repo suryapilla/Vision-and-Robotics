@@ -1,0 +1,7 @@
+dataset: 2
+trainpath: /home/surya/Desktop/ucsd/ECE276A/PR1/data
+testpath: /home/surya/Desktop/ucsd/ECE276A/PR1/testData
+
+num_bias_points : 500
+lr : 0.01
+eps : 0.0000001
