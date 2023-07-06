@@ -1,0 +1,17 @@
+DATASET: 21 # give the dataset number
+
+NUMBER_OF_PARTICLES: 10 
+
+PATH_FIGURES: "./figures/"
+
+OCCUPANCY_GRID_FIG_NAME: "occupancy_grid.png"
+
+TRAJECTORY_FIG_NAME: "trajectory.png"
+
+TEXTURE_MAP_FIG_NAME: "texture.png"
+
+DISPARITY_IMG_PATH: "./data/dataRGBD/Disparity"
+
+RGB_IMG_PATH: "./data/dataRGBD/RGB"
+
+# Path: config/config.yml
