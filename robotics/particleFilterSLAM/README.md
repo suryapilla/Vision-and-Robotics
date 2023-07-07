@@ -53,16 +53,22 @@ Download the dataRGBD dataset from the link and copy the dataRGBD "data" directo
 
 - Clone the repository
 - create virtual environement (anaconda can be used to do it and instructions are given below):
-	- conda create --name env_particleSLAM
-	- pip install -r requirements.txt
-
+```
+conda create --name env_particleSLAM
+conda activate env_particleSLAM
+git clone https://github.com/suryapilla/Vision-and-Robotics/tree/particleSLAM/robotics/objectTracking
+pip install -r requirements.txt
+```
 - utils.py contains all relevant functions required for the main function
-- give correct paths in config.yml
+- give correct paths in `config.yml`
 - There are 3 sections in the main.py script:
 	- Trajectory generation
 	- Map generation
 	- Texture Mapping
 - Run main.py to generate all the 3 plots: Trajectory, Occupancy map and Texture Map
+```
+python main.py
+```
 - The script creates 3 png images for the above mentioned and saves in figures directory
 
 #### *Please refer to the report.pdf for detailed explanation of the code implementation
